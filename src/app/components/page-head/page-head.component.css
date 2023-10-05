@@ -1,0 +1,40 @@
+.head{
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 60%;
+}
+
+.menu{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    width: 100%;
+}
+
+.menu-item{
+    font-weight: 500;
+    font-size: 14px;
+    color:black;
+    margin: auto;
+}
+

@@ -1,0 +1,44 @@
+.card-wrapper{
+    width: 100%;
+    border: #6b6b6b;
+}
+
+.image{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.game-name{
+    color: #363636;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 28px;
+}
+
+.game-description{
+    color: #6b6b6b;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.details{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.buy-button{
+    background-color: #0070CC;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    size: 14px;
+    padding: 10px;
+
+}

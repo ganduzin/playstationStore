@@ -1,0 +1,6 @@
+.break{
+    background-color: black;
+    border-width: 2px;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #E5E5E5, white);
+}
