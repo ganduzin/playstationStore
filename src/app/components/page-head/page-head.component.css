@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: center;
     position: relative;
+    justify-content: center;
 }
 
 a{
@@ -17,24 +18,29 @@ a{
 }
 
 .menu{
-    text-align: center;
+    display: flex;
     width: 50%;
     margin: auto;
-    
 }
 
 .menu-list {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    font-size: 10px;
     width: 100%;
+    justify-content: center;
 }
 
 .menu-item{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     color:black;
     margin: auto;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.menu-item:hover{
+    background-color: #CED5DA;
 }
 

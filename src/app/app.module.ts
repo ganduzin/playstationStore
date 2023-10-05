@@ -6,9 +6,7 @@ import { AppComponent } from './app.component';
 import { PageHeadComponent } from "./components/page-head/page-head.component";
 
 @NgModule({
-    declarations: [
-        AppComponent
-    ],
+    declarations: [AppComponent],
     providers: [],
     bootstrap: [AppComponent],
     imports: [

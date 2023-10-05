@@ -1,7 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
-import { dataFake } from 'src/app/data/dataFake';
 
 @Component({
   selector: 'app-small-card',
